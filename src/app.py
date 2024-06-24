@@ -198,11 +198,11 @@ navbar = dbc.Navbar(
             dbc.Collapse(
                 dbc.Nav(
                     [
-                        dbc.NavItem(dbc.NavLink("Home", href="#", id="tab-home", n_clicks=0, style={'color': 'white'})),
-                        dbc.NavItem(dbc.NavLink("General Situation", href="#", id="tab-general-situation", n_clicks=0, style={'color': 'white'})),
-                        dbc.NavItem(dbc.NavLink("How do the Fallas affect your street?", href="#", id="tab-street", n_clicks=0, style={'color': 'white'})),
-                        dbc.NavItem(dbc.NavLink("Find the best route", href="#", id="tab-route", n_clicks=0, style={'color': 'white'})),
-                        dbc.NavItem(dbc.NavLink("Real Time Traffic", href="#", id="tab-real-time-traffic", n_clicks=0, style={'color': 'white'})),
+                        dbc.NavItem(dbc.NavLink("Home", href="#home", id="tab-home", n_clicks=0, style={'color': 'white'})),
+                        dbc.NavItem(dbc.NavLink("General Situation", href="#general-situation", id="tab-general-situation", n_clicks=0, style={'color': 'white'})),
+                        dbc.NavItem(dbc.NavLink("How do the Fallas affect your street?", href="#street-information", id="tab-street", n_clicks=0, style={'color': 'white'})),
+                        dbc.NavItem(dbc.NavLink("Find the best route", href="#route", id="tab-route", n_clicks=0, style={'color': 'white'})),
+                        dbc.NavItem(dbc.NavLink("Real Time Traffic", href="#real-time-traffic", id="tab-real-time-traffic", n_clicks=0, style={'color': 'white'})),
                     ],
                     className="ms-auto",
                     navbar=True,
