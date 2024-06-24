@@ -1,0 +1,17 @@
+branca==0.7.2
+dash==2.17.0
+dash_bootstrap_components==1.6.0
+dash_leaflet==1.0.15
+folium==0.17.0
+fuzzywuzzy==0.18.0
+geopandas==0.14.4
+geopy==2.4.1
+matplotlib==3.5.1
+networkx==3.2.1
+osmnx==1.9.3
+pandas==2.2.2
+requests==2.31.0
+seaborn==0.13.2
+shapely==2.0.4
+gunicorn
+dash-tools
