@@ -73,3 +73,7 @@ This Dash application is designed to visualize and analyze traffic in the city o
 - **Geospatial Data:** Used for map and route visualizations.
   
 ## Contributors
+
+- [Sebastián Gómez](https://github.com/2gomez)
+- [Martín Juanes](https://github.com/mjuahop)
+- [Jose Valero](https://github.com/jose-valero-sanchis) 
