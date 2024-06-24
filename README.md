@@ -54,7 +54,7 @@ This Dash application is designed to visualize and analyze traffic in the city o
 3. Run the Docker container:
 
     ```bash
-    docker run -p 8051:8051 dash-app-edm
+    docker run -p 8050:8050 dash-app-edm
     ```
 
 ## Usage
