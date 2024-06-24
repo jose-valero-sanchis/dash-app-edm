@@ -36,7 +36,7 @@ This Dash application is designed to visualize and analyze traffic in the city o
 
 ## Usage
 
-1. Navigate to `http://127.0.0.1:8050` in your browser.
+1. Navigate to `http://127.0.0.1:8051` in your browser.
 2. Explore different sections using the navigation bar:
     - **Home:** General information about the project.
     - **General Situation:** Detailed analysis of traffic conditions during Fallas.
