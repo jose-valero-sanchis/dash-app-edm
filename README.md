@@ -13,6 +13,8 @@ This Dash application is designed to visualize and analyze traffic in the city o
 
 ## Installation
 
+### Using Python Virtual Environment
+
 1. Clone the repository:
 
     ```bash
@@ -34,6 +36,27 @@ This Dash application is designed to visualize and analyze traffic in the city o
     python src/app.py
     ```
 
+### Using Docker
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/jose-valero-sanchis/dash-app-edm.git
+    cd dash-app-edm
+    ```
+
+2. Build the Docker image:
+
+    ```bash
+    docker build -t dash-app-edm .
+    ```
+
+3. Run the Docker container:
+
+    ```bash
+    docker run -p 8051:8051 dash-app-edm
+    ```
+
 ## Usage
 
 1. Navigate to `http://127.0.0.1:8050` in your browser.
@@ -48,7 +71,5 @@ This Dash application is designed to visualize and analyze traffic in the city o
 
 - **Traffic Data:** Includes information on traffic conditions during and after the Fallas.
 - **Geospatial Data:** Used for map and route visualizations.
-
-## Contact
-
-For any questions or suggestions, you can contact me through my [GitHub profile](https://github.com/jose-valero-sanchis).
+  
+## Contributors
